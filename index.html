@@ -6,33 +6,91 @@
   <title>Aizen</title>
   <style>
     body {
-      background-color: #f2f2f2; /* Set your preferred background color */
+      margin: 0;
+      padding: 0;
       font-family: Arial, sans-serif;
-      /* Add more styles for the vibrant aesthetic as per your preference */
+      background-color: #f7f7f7;
     }
-    /* Add more CSS for the header, buttons, images, etc. */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      padding: 1em 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+    }
+    section {
+      padding: 2em;
+    }
+    .product {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2em;
+    }
+    .product img {
+      max-width: 200px;
+      max-height: 200px;
+      margin-right: 1em;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
   </style>
 </head>
 <body>
   <header>
+    <h1>Aizen</h1>
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#product">Product</a></li>
-        <!-- Add more navigation buttons as required -->
-      </ul>
+      <a href="#">Home</a>
+      <a href="#">Product</a>
+      <a href="#">Other</a>
     </nav>
   </header>
-  <main>
-    <!-- Add captivating images and detailed descriptions of Books, Manga, and manhwas -->
-    <!-- Use HTML elements like <div>, <img>, <p>, <h2>, etc. for content organization -->
-  </main>
+  <section>
+    <div class="product">
+      <img src="book1.jpg" alt="Book 1">
+      <div>
+        <h2>Book 1</h2>
+        <p>Detailed description and benefits of Book 1.</p>
+        <button>Add to Cart</button>
+        <p>No. of Stocks: 10</p>
+      </div>
+    </div>
+    <div class="product">
+      <img src="manga1.jpg" alt="Manga 1">
+      <div>
+        <h2>Manga 1</h2>
+        <p>Detailed description and benefits of Manga 1.</p>
+        <button>Add to Cart</button>
+        <p>No. of Stocks: 15</p>
+      </div>
+    </div>
+    <div class="product">
+      <img src="manhwa1.jpg" alt="Manhwa 1">
+      <div>
+        <h2>Manhwa 1</h2>
+        <p>Detailed description and benefits of Manhwa 1.</p>
+        <button>Add to Cart</button>
+        <p>No. of Stocks: 20</p>
+      </div>
+    </div>
+  </section>
   <footer>
     <p>&copy; 2024 Aizen. All rights reserved.</p>
-    <!-- Add buttons for "Add to Cart" and display the number of stocks available -->
   </footer>
-  <script>
-    // Add JavaScript code for any interactive functionality or dynamic effects
-  </script>
 </body>
 </html>
